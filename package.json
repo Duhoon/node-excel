@@ -1,0 +1,19 @@
+{
+  "name": "node-excel",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/xlsx": "^0.0.36",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql": "^2.18.1",
+    "xlsx": "^0.18.5"
+  }
+}
